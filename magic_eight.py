@@ -1,9 +1,27 @@
+<<<<<<< HEAD
 import random
 
 def question():
 	print("What is your question?")
 	question = input()
 	return question
+=======
+user_question = ""
+while(user_question!= "quit"):
+
+
+	def question():
+		print("What is your question?")
+		question = input()
+		return question
+
+	user_question = question()
+
+	if user_question.endswith("?"):
+		pass
+	else:
+		print("I’m sorry, I can only answer questions.")
+>>>>>>> check_question
 
 all_answers=["It is certain", "It is decidedly so", "Without a doubt",
               "Yes definitely", "You may rely on it", "As I see it, yes", "Most likely",
